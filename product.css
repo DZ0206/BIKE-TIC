@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  text-decoration: none;
+  color: white;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/bg1.jfif);
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.inti{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 5%;
+	text-decoration: none;
+}
+.main {
+	width: 55%;
+	float: left;
+}
+.main-bike {
+	color: white;
+	font-size: 15px;
+	margin-top: 50px;
+	overflow: auto;
+}
+img {
+	float: left;
+	transition: 0.5s;
+	margin-right: 30px;
+}
+img:hover {
+	transform: translate(0,-10px) scale3d(1.5, 1.5, 1.0);
+}
+p {
+	margin: auto;
+}
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:hover {
+	border-radius: 25px;
+	background-color: silver;
+	color: white;
+}
+.sidebar {
+	width: 40%;
+	float: right;
+	overflow: auto;
+	color: white;
+	margin-top: 10%;
+}
+h2{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.sidebar img {
+	width: 120px;
+	height: 100px;
+	float: left;
+	margin: 10px 10px;
+	box-shadow: 3px 6px 3px black;
+}
+.footer {
+	margin-top: 33%;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}

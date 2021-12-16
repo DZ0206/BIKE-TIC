@@ -1,0 +1,126 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font: 16px/28px arial sans-serif;
+	background-color: lightyellow;
+	color: #333333;
+	/*background-image: url(vb.jpg);*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS STYLE*/
+body{
+	background: url(image/roadbike.jfif);
+	background-position: 0px -170px;
+	background-size:cover;
+	font-family: cursive;
+	color: white;
+}
+.container{
+	width: 1000px;
+	margin: auto;
+}
+.main{
+	width: 400px;
+	padding: 20px;
+	float: right;
+	box-sizing: border-box;
+}
+.main h1{
+	font-size: 28px;
+	font-weight: bold;
+}
+.main .penulis {
+	font-size: 12px;
+	margin-top: 5px;
+}
+p {
+	margin-top: 5px;
+}
+.sidebar{
+	width: 250px;
+	padding: 20px;
+	float: left;
+}
+.sidebar h2 {
+	font-weight: bold;
+	font-family: cursive;
+}
+.sidebar img {
+	width: 70px;
+	height: 80px;
+	float: left;
+	padding: 10px;
+}
+.sidebar1{
+	width: 250px;
+	padding: 20px;
+	float: right;
+}
+.sidebar1 h4 {
+	font-weight: bold;
+	font-family: cursive;
+}
+.sidebar1 img {
+	width: 70px;
+	height: 80px;
+	float: right;
+	padding: 15px;
+	margin-top: 20px;
+}
+/*Ini adalah clearfi*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
